@@ -183,10 +183,11 @@ install(DIRECTORY
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/src
 )
 
-catkin_install_python(
-  PROGRAMS src/${PROJECT_NAME}/make_libraries.py
-  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
-)
+## Uncomment this section to copy-paste make_libraries.py inside devel folder
+# catkin_install_python(
+#   PROGRAMS src/${PROJECT_NAME}/make_libraries.py
+#   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+# )
 
 #############
 ## Testing ##
