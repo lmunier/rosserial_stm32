@@ -1,9 +1,9 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 #####################################################################
 # Software License Agreement (BSD License)
 #
-# Copyright (c) 2018, Kenta Yonekura (a.k.a. yoneken), 
+# Copyright (c) 2018, Kenta Yonekura (a.k.a. yoneken),
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -100,4 +100,3 @@ rosserial_client_copy_files(rospack, path)
 
 # generate messages
 rosserial_generate(rospack, path, ROS_TO_EMBEDDED_TYPES)
-
